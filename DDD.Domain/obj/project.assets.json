@@ -8,24 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Morais\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Cliente\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Worke\\DDD.SuperMarket\\DDD.Domain\\DDD.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Cliente\\Desktop\\NetCore\\DDD.SuperMarket\\DDD.Domain\\DDD.Domain.csproj",
       "projectName": "DDD.Domain",
-      "projectPath": "D:\\Worke\\DDD.SuperMarket\\DDD.Domain\\DDD.Domain.csproj",
-      "packagesPath": "C:\\Users\\Morais\\.nuget\\packages\\",
-      "outputPath": "D:\\Worke\\DDD.SuperMarket\\DDD.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Cliente\\Desktop\\NetCore\\DDD.SuperMarket\\DDD.Domain\\DDD.Domain.csproj",
+      "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cliente\\Desktop\\NetCore\\DDD.SuperMarket\\DDD.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Morais\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

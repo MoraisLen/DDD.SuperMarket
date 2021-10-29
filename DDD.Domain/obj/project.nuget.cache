@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bjAch5Hl3bl7X6aFBL6k7mk8dG+FBwuvTDwUaNFFfJuA+J/y6bmJuwXVfPpiDEpM9Ubt/ZnVCzSLPRTiSpnhGg==",
+  "dgSpecHash": "hCbOuFxUx5kbvzoCp4cpAsuol3W5i9AdevjFfnpyXUHxoz8kJivml3qrC2ukRKhBKloXm82el0XNVrQcNSXp+Q==",
   "success": true,
-  "projectFilePath": "D:\\Worke\\DDD.SuperMarket\\DDD.Domain\\DDD.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Cliente\\Desktop\\NetCore\\DDD.SuperMarket\\DDD.Domain\\DDD.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

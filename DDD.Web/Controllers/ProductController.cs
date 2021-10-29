@@ -1,4 +1,5 @@
 ﻿using DDD.Application.Interfaces;
+using DDD.Application.DTO;
 using DDD.Domain.Enties;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -48,12 +49,23 @@ namespace DDD.Web.Controllers
 
         [HttpPost]
         [Route("save")]
-        public ActionResult<dynamic> Save([FromBody] Product product)
+        public ActionResult<dynamic> Save([FromBody] DTOProduct _product)
         {
             try
             {
-                productApp.Add(product);
-                return Ok(product);
+                if (!ModelState.IsValid)
+                    return BadRequest();
+
+                Product newProduct = new Product
+                {
+                    name        = _product.name,
+                    price       = _product.price,
+                    description = _product.description
+                };
+
+                productApp.Add(newProduct);
+
+                return Ok(newProduct);
             }
             catch (Exception ex)
             {
@@ -62,8 +74,8 @@ namespace DDD.Web.Controllers
         }
 
         [HttpDelete]
-        [Route("delete")]
-        public ActionResult<dynamic> Delete([FromBody] int id)
+        [Route("delete/{id}")]
+        public ActionResult<dynamic> Delete(int id)
         {
             try
             {
@@ -83,19 +95,26 @@ namespace DDD.Web.Controllers
         }
 
         [HttpPut]
-        [Route("update")]
-        public ActionResult<dynamic> Update([FromBody] Product _product)
+        [Route("update/{id}")]
+        public ActionResult<dynamic> Update([FromRoute] int id, [FromBody] DTOProduct _product)
         {
             try
             {
-                var product = productApp.GetById(_product.id);
+                if (!ModelState.IsValid)
+                    return BadRequest();
+
+                Product product = productApp.GetById(id);
 
                 if (product == null)
                     return NotFound();
 
-                productApp.Update(_product);
+                product.name        = _product.name;
+                product.price       = _product.price;
+                product.description = _product.description;
 
-                return Ok();
+                productApp.Update(product);
+
+                return Ok(product);
             }
             catch (Exception ex)
             {
