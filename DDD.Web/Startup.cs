@@ -25,6 +25,7 @@ namespace DDD.Web
         {
             services.AddSingleton(typeof(IGenericEntie<>), typeof(GenericRepository<>));
             services.AddSingleton<IProduct, ProductRepository>();
+            services.AddSingleton<IClient, ClientRepository>();
             services.AddSingleton<IProductApp, ProductApp>();
 
             services.AddControllers();

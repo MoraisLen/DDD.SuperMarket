@@ -7,14 +7,14 @@ using Microsoft.AspNetCore.Mvc;
 namespace DDD.Web.Controllers
 {
     [ApiController]
-    [Route("api/v1/product/")]
-    public class ProductController : Controller
+    [Route("api/v1/client/")]
+    public class ClientController : Controller
     {
-        private readonly IProductApp productApp;
+        private readonly IClientApp clientApp;
 
-        public ProductController(IProductApp _productApp)
+        public ClientController(IClientApp _clientApp)
         {
-            productApp = _productApp;
+            clientApp = _clientApp;
         }
 
         [HttpGet]
@@ -23,7 +23,7 @@ namespace DDD.Web.Controllers
         {
             try
             {
-                return productApp.GetAll();
+                return clientApp.GetAll();
             }
             catch (Exception ex)
             {
@@ -37,9 +37,9 @@ namespace DDD.Web.Controllers
         {
             try
             {
-                var product = productApp.GetById(id);
+                var client = clientApp.GetById(id);
 
-                return (product != null) ? product : NotFound();
+                return (client != null) ? client : NotFound();
             }
             catch (Exception ex)
             {
@@ -49,23 +49,23 @@ namespace DDD.Web.Controllers
 
         [HttpPost]
         [Route("save")]
-        public ActionResult<dynamic> Save([FromBody] DTOProduct _product)
+        public ActionResult<dynamic> Save([FromBody] DTOClient _client)
         {
             try
             {
                 if (!ModelState.IsValid)
                     return BadRequest();
 
-                Product newProduct = new Product
+                Client newClient = new Client
                 {
-                    name = _product.name,
-                    price = _product.price,
-                    description = _product.description
+                    name        = _client.name,
+                    city        = _client.city,
+                    document    = _client.document
                 };
 
-                productApp.Add(newProduct);
+                clientApp.Add(newClient);
 
-                return Ok(newProduct);
+                return Ok(newClient);
             }
             catch (Exception ex)
             {
@@ -79,12 +79,12 @@ namespace DDD.Web.Controllers
         {
             try
             {
-                var product = productApp.GetById(id);
+                var client = clientApp.GetById(id);
 
-                if (product == null)
+                if (client == null)
                     return NotFound();
 
-                productApp.Remove(product);
+                clientApp.Remove(client);
 
                 return Ok();
             }
@@ -96,25 +96,25 @@ namespace DDD.Web.Controllers
 
         [HttpPut]
         [Route("update/{id}")]
-        public ActionResult<dynamic> Update([FromRoute] int id, [FromBody] DTOProduct _product)
+        public ActionResult<dynamic> Update([FromRoute] int id, [FromBody] DTOClient _client)
         {
             try
             {
                 if (!ModelState.IsValid)
                     return BadRequest();
 
-                Product product = productApp.GetById(id);
+                Client client = clientApp.GetById(id);
 
-                if (product == null)
+                if (client == null)
                     return NotFound();
 
-                product.name = _product.name;
-                product.price = _product.price;
-                product.description = _product.description;
+                client.name     = _client.name;
+                client.document = _client.document;
+                client.city     = _client.city;
 
-                productApp.Update(product);
+                clientApp.Update(client);
 
-                return Ok(product);
+                return Ok(client);
             }
             catch (Exception ex)
             {

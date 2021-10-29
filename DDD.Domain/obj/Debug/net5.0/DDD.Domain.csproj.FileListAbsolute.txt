@@ -22,15 +22,3 @@ D:\Worke\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\DDD.Domain.csproj.CoreCompi
 D:\Worke\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\DDD.Domain.dll
 D:\Worke\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\ref\DDD.Domain.dll
 D:\Worke\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\DDD.Domain.pdb
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\bin\Debug\net5.0\DDD.Domain.deps.json
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\bin\Debug\net5.0\DDD.Domain.dll
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\bin\Debug\net5.0\ref\DDD.Domain.dll
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\bin\Debug\net5.0\DDD.Domain.pdb
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\DDD.Domain.csproj.AssemblyReference.cache
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\DDD.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\DDD.Domain.AssemblyInfoInputs.cache
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\DDD.Domain.AssemblyInfo.cs
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\DDD.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\DDD.Domain.dll
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\ref\DDD.Domain.dll
-C:\Users\Cliente\Desktop\NetCore\DDD.SuperMarket\DDD.Domain\obj\Debug\net5.0\DDD.Domain.pdb
