@@ -1,7 +1,7 @@
-﻿using DDD.Application.Interfaces;
+﻿using System.Collections.Generic;
+using DDD.Application.Interfaces;
 using DDD.Domain.Enties;
 using DDD.Domain.Interfaces;
-using System.Collections.Generic;
 
 namespace DDD.Application.App
 {

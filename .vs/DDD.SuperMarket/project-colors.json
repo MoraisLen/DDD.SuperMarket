@@ -15,7 +15,17 @@
       "ProjectGuid": "616782cb-e1b0-4f8b-9b3b-0698d029afc1",
       "DisplayName": "DDD.Application",
       "ColorIndex": 2
+    },
+    "2110bda8-5978-44a3-b9f0-63f914389172": {
+      "ProjectGuid": "2110bda8-5978-44a3-b9f0-63f914389172",
+      "DisplayName": "DDD.Domain",
+      "ColorIndex": 3
+    },
+    "f59113a4-9800-486a-a270-b49f36351a04": {
+      "ProjectGuid": "f59113a4-9800-486a-a270-b49f36351a04",
+      "DisplayName": "DDD.Web",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }

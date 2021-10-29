@@ -1,8 +1,8 @@
-﻿using DDD.Application.Interfaces;
+﻿using System;
 using DDD.Application.DTO;
+using DDD.Application.Interfaces;
 using DDD.Domain.Enties;
 using Microsoft.AspNetCore.Mvc;
-using System;
 
 namespace DDD.Web.Controllers
 {
@@ -58,8 +58,8 @@ namespace DDD.Web.Controllers
 
                 Product newProduct = new Product
                 {
-                    name        = _product.name,
-                    price       = _product.price,
+                    name = _product.name,
+                    price = _product.price,
                     description = _product.description
                 };
 
@@ -108,8 +108,8 @@ namespace DDD.Web.Controllers
                 if (product == null)
                     return NotFound();
 
-                product.name        = _product.name;
-                product.price       = _product.price;
+                product.name = _product.name;
+                product.price = _product.price;
                 product.description = _product.description;
 
                 productApp.Update(product);

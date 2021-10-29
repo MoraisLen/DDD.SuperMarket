@@ -1,5 +1,5 @@
-﻿using DDD.Domain.Enties;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using DDD.Domain.Enties;
 
 namespace DDD.Application.Interfaces
 {
