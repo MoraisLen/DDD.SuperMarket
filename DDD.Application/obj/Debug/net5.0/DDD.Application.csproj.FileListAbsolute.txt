@@ -1,0 +1,17 @@
+D:\Worke\DDD.SuperMarket\DDD.Application\bin\Debug\net5.0\DDD.Application.deps.json
+D:\Worke\DDD.SuperMarket\DDD.Application\bin\Debug\net5.0\DDD.Application.dll
+D:\Worke\DDD.SuperMarket\DDD.Application\bin\Debug\net5.0\ref\DDD.Application.dll
+D:\Worke\DDD.SuperMarket\DDD.Application\bin\Debug\net5.0\DDD.Application.pdb
+D:\Worke\DDD.SuperMarket\DDD.Application\bin\Debug\net5.0\DDD.Domain.dll
+D:\Worke\DDD.SuperMarket\DDD.Application\bin\Debug\net5.0\DDD.Infrastructure.dll
+D:\Worke\DDD.SuperMarket\DDD.Application\bin\Debug\net5.0\DDD.Domain.pdb
+D:\Worke\DDD.SuperMarket\DDD.Application\bin\Debug\net5.0\DDD.Infrastructure.pdb
+D:\Worke\DDD.SuperMarket\DDD.Application\obj\Debug\net5.0\DDD.Application.csproj.AssemblyReference.cache
+D:\Worke\DDD.SuperMarket\DDD.Application\obj\Debug\net5.0\DDD.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Worke\DDD.SuperMarket\DDD.Application\obj\Debug\net5.0\DDD.Application.AssemblyInfoInputs.cache
+D:\Worke\DDD.SuperMarket\DDD.Application\obj\Debug\net5.0\DDD.Application.AssemblyInfo.cs
+D:\Worke\DDD.SuperMarket\DDD.Application\obj\Debug\net5.0\DDD.Application.csproj.CoreCompileInputs.cache
+D:\Worke\DDD.SuperMarket\DDD.Application\obj\Debug\net5.0\DDD.Application.csproj.CopyComplete
+D:\Worke\DDD.SuperMarket\DDD.Application\obj\Debug\net5.0\DDD.Application.dll
+D:\Worke\DDD.SuperMarket\DDD.Application\obj\Debug\net5.0\ref\DDD.Application.dll
+D:\Worke\DDD.SuperMarket\DDD.Application\obj\Debug\net5.0\DDD.Application.pdb
